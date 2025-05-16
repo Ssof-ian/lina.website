@@ -1,0 +1,67 @@
+
+body {
+      /* background-color: #fff0f5; */
+      background-image: url(depositphotos_49522289-stock-illustration-watercolor-tulips-seamless-pattern.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+      color: #3e1f47;
+}
+h1{
+    text-align: center;
+}
+.c{
+    border: solid 1px #ccc;
+    padding: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 15px;
+    background-color:#fff0f5 ;
+
+}
+
+.reason {
+      font-size: 1.5rem;
+      margin: 20px 0;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+}
+
+.visible {
+      opacity: 1;
+}
+
+.final-message {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 1.6;
+  }
+  .final-message.visible {
+    opacity: 1;
+  }
+  @media (max-width: 600px) {
+    .reason {
+      font-size: 1.2rem;
+    }
+  
+    .final-message {
+      font-size: 1.2rem;
+      padding: 0 10px;
+    }
+  
+    .c {
+      margin: 0 4%;
+    }
+  }
+  
